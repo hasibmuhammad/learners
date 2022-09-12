@@ -30,3 +30,20 @@ body {
   color: #f4f4f4;
   font-size: 18px;
 }
+
+@media only screen and (max-width: 600px) {
+  .course {
+    flex-direction: column;
+  }
+  .popular-course-paragraph {
+    display: none;
+  }
+
+  .course img {
+    width: 80%;
+  }
+  .course p,
+  h4 {
+    text-align: center;
+  }
+}

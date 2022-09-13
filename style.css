@@ -28,7 +28,15 @@ body {
 
 .text-offwhite {
   color: #f4f4f4;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+.stats {
+  background-color: #f4fafd;
+}
+
+.join {
+  background-color: #289bde;
 }
 
 @media only screen and (max-width: 600px) {
@@ -44,6 +52,22 @@ body {
   }
   .course p,
   h4 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 995px) {
+  .stats {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .stats img {
+    width: 100%;
+  }
+
+  .join-inner {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0 !important;
     text-align: center;
   }
 }
